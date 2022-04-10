@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 90vh;
+}
+p{
+    text-align: center;
+    font-size: xx-large;
+}
+form{
+    background-color: #f5e9d9;
+    padding: 20px 30px 20px 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: .8;
+}
+.campo{
+    margin: 10px;
+}
+#logar{
+    background-color: rgb(255, 121, 0);
+    border: 2px solid rgb(203, 100, 9);
+    padding: 15px;
+    border-radius: 15px;
+}
+input.campos{
+    border: 0;
+    height: 25px;
+}
+a{
+    display: flex;
+    color: rgb(203, 100, 9);
+    text-decoration: none;
+    justify-content: flex-end;
+}
